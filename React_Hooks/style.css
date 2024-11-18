@@ -1,0 +1,18 @@
+form{
+    background-color: aqua;
+    width: 500px;
+}
+.btn1{
+    display: flex;
+    margin: 20px auto 20px auto ;
+    border-radius: 30px;
+    width: 70px;
+    text-align: center;
+    background-color: brown;
+    color :azure
+}
+
+.btn1:hover{
+    background-color:azure;
+    color: black;
+}

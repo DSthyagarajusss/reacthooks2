@@ -1,0 +1,21 @@
+import React from 'react'
+class Messagee extends React.Component{
+    state={
+        msg:"Hello"
+    }
+    updateHandler=(Value)=>{
+        this.setState({ msg:Value})
+    }
+    
+    render(){
+        return <div>
+                <h3>Message Component</h3>
+                <h3>Value:{this.state.msg}</h3>
+                <button onClick={this.updateHandler.bind('good morning')}>GM</button>
+                <button onClick={this.updateHandler.bind('good Afternoon')}>GA</button>
+                <button onClick={this.updateHandler.bind('good evening')}>GE</button>
+                <button onClick={this.updateHandler.bind('goog nigth')}>GN</button>
+                </div>
+    }
+}
+export default Messagee

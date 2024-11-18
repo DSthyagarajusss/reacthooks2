@@ -1,0 +1,37 @@
+
+div{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:red;
+}
+button{
+     margin: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-color: aqua;
+    color: blue;
+    padding-inline-start: 4px;
+}
+
+
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+table{
+   
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    color:gold;
+}
+pre{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+}
+thead{
+    background-color: darkcyan;
+    color: black;
+}
